@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1B5589;
+    height: 100px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu a {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 25px;
+}
+
+.header__menu_active {
+    color: white;
+    font-size: 20px;
+    font-weight: 700 !important;
+}
+
+
+.main__title {
+    font-weight: 300;
+    font-size: 40px;
+    margin: 20px 0px 20px;
+}
+
+.titles {
+    background-color: #CCE5FF;
+    height: 80px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.avatar__button {
+    padding: 15px 15px;
+    background-color: #6F747B;
+    color: white;
+    border-radius: 10px;
+}
+
+.student__button {
+    padding: 15px 15px;
+    background-color: #6F747B;
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.password__button {
+    padding: 15px 15px;
+    background-color: #6F747B;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 0px;
+}
+
+input {
+    border-radius: 8px;
+    border: #6F747B 1px solid;
+}
+
+input::placeholder {
+    padding-left: 15px;
+}
+
+.col-2 {
+    padding: 0;
+}
+
+.col-4 {
+    padding: 0;
+}
+
+.col-6 input {
+    width: 90%;
+    height: 50px;
+}
+
+.col-4 input {
+    width: 100%;
+    padding: 0;
+    height: 50px;
+}
